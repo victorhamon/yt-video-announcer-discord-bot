@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "Discord bot to announce new YouTube videos.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Hamon",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "googleapis": "^136.0.0",
+    "node-cron": "^3.0.3"
+  }
+}
